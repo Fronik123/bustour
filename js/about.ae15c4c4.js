@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_3_bustour"]=self["webpackChunkvue_3_bustour"]||[]).push([[594],{5587:function(u,e,n){n.r(e),n.d(e,{default:function(){return b}});var t=n(6768);const r={class:"home"};function s(u,e,n,s,o,a){return(0,t.uX)(),(0,t.CE)("div",r,"about")}var o={name:"AboutView"},a=n(1241);const c=(0,a.A)(o,[["render",s]]);var b=c}}]);
+//# sourceMappingURL=about.ae15c4c4.js.map
