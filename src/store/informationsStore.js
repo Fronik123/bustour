@@ -45,7 +45,7 @@ export const informationsStore = defineStore("informationsStore", {
     },
 
     handleAdd(info) {
-      const id = this.informations.length + 1;
+      const id = Date.now() + Math.floor(Math.random() * 1000);
 
       const newInfo = {
         id,

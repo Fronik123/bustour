@@ -34,7 +34,7 @@ export const userStore = defineStore("userStore", {
     },
 
     addUser(user) {
-      const newId = this.users.length + 1;
+      const newId = Date.now() + Math.floor(Math.random() * 1000);
 
       this.users.push({
         id: newId,
